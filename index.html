@@ -63,7 +63,7 @@
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
                 
-                <div class="carousel-item" style="background-image: url('https://www.moma.org/d/assets/W1siZiIsIjIwMTUvMTAvMTQvNTI2MzRzcmtnbV80NjM2MC5qcGciXSxbInAiLCJjb252ZXJ0IiwiLXJlc2l6ZSAyMDAweDIwMDBcdTAwM2UiXV0/46360.jpg?sha=296166a8ebd7f3cd')">
+                <div class="carousel-item" style="background-image:url('assets/domi_1.png')">
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,8 +78,10 @@
           
         
     <div class="flex-container">
-        <div>
-            <img class="card-img-top" src="https://img.discogs.com/hr5nN30xxQ49_eo5RqW6q791QVA=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7251550-1488828891-5153.png.jpg" alt="Card image">
+      <div>
+            
+            <img class="card-img-top" onclick="load_audio(this)" data-audio = "assets/anderson-paak_off-the-ground.webm"
+            src="https://img.discogs.com/hr5nN30xxQ49_eo5RqW6q791QVA=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7251550-1488828891-5153.png.jpg" alt="Card image">
             </div>
         <div>
             
@@ -118,6 +120,12 @@
                     
                 </div>
         </div>
+
+        <iframe src="https://open.spotify.com/embed/user/andre.lorenzana/playlist/41MGtZkkIcYSLKAx790wT6" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        
+        <video controls autoplay id="audio_player">
+          <source id="audio_player_file" src="" type="video/webm" />
+        </video>
             
 
 </body>
