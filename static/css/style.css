@@ -3,10 +3,10 @@ body { background-color: #190707}
 .flex-container {
     display: flex;
     flex-direction: row;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-right: 30px;
-    padding-bottom: 80px;
-    padding-left: 80px;
+    padding-bottom: 10px;
+    padding-left: 20px;
   }
 
   .card {
@@ -17,11 +17,10 @@ body { background-color: #190707}
     padding-left: 10px;
   }
 
-.card-img-top {
-  width: 320px;
-  padding-top: 10px;
-  padding-right: 40px;
-  padding-bottom: 10px;
+.music-frame {
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
   padding-left: 20px;
 }
 
